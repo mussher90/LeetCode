@@ -9,9 +9,9 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var strs = new string[] { "" };
+            var strs = new int[] { 1, 1 };
 
-            var answer = LC14.LongestPrefix.Prefix(strs);
+            var answer = LC11.LC11.MaxArea(strs);
             Console.Write(answer);
         }
     }
