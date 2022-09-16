@@ -1,7 +1,5 @@
-﻿using LeetCode.LC13;
-using LeetCode.LC42;
+﻿
 using System;
-using System.Diagnostics;
 
 namespace LeetCode
 {
@@ -9,9 +7,9 @@ namespace LeetCode
     {
         static void Main(string[] args)
         {
-            var strs = new int[] { 1, 1 };
+            var strs = new int[] { 1, 1, 2 };
 
-            var answer = LC11.LC11.MaxArea(strs);
+            var answer = LC26.LC26.RemoveDuplicates(strs);
             Console.Write(answer);
         }
     }
