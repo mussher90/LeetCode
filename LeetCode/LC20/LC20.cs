@@ -15,20 +15,9 @@ namespace LeetCode.LC20
             {
                 var length = parentheses.Length;
 
-                if (parentheses.Contains("()"))
-                {
-                    parentheses = parentheses.Replace("()", "");
-                }
-
-                if (parentheses.Contains("{}"))
-                {
-                    parentheses = parentheses.Replace("{}", "");
-                }
-
-                if (parentheses.Contains("[]"))
-                {
-                    parentheses = parentheses.Replace("[]", "");
-                }
+                parentheses = parentheses.Replace("()", "");
+                parentheses = parentheses.Replace("{}", "");
+                parentheses = parentheses.Replace("[]", "");
 
                 valid = parentheses.Length < length;
 
